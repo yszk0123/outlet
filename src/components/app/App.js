@@ -4,10 +4,10 @@ import { graphql } from 'react-apollo';
 import { withRouter } from 'react-router';
 import gql from 'graphql-tag';
 import flowRight from 'lodash/flowRight';
-import LoginWithAuth0 from 'app/components/login/LoginWithAuth0';
-import Home from 'app/components/home/Home';
-import Loading from 'app/components/common/Loading';
-import config from 'app/config/config';
+import LoginWithAuth0 from '../login/LoginWithAuth0';
+import Home from '../home/Home';
+import Loading from '../common/Loading';
+import config from '../../config/config';
 const { localStorage } = window;
 
 const LoggedIn = (props: { onLogOut: EventHandler }) => (

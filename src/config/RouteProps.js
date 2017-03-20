@@ -1,5 +1,5 @@
 // @flow
-import type { ReactComponent } from 'app/common/ReactTypes';
+import type { ReactComponent } from '../common/ReactTypes';
 
 export type RouteProps = {
   path: string,

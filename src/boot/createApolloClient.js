@@ -1,6 +1,6 @@
 // @flow
 import ApolloClient, { createNetworkInterface } from 'apollo-client';
-import config from 'app/config/config';
+import config from '../config/config';
 
 const networkInterface = createNetworkInterface({
   uri: config.apollo.endpoint

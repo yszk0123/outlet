@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import type { UserData } from 'app/flux/user/UserQuery';
+import type { UserData } from '../../flux/user/UserQuery';
 
 const Wrapper = (props: {}) => (
   <div {...props} className="w100 pa4 flex justify-center" />

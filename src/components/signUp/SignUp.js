@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import { Redirect, withRouter } from 'react-router-dom';
 import { graphql } from 'react-apollo';
 import flowRight from 'lodash/flowRight';
-import CreateUserMutation from 'app/flux/user/CreateUserMutation';
-import UserQuery from 'app/flux/user/UserQuery';
+import CreateUserMutation from '../../flux/user/CreateUserMutation';
+import UserQuery from '../../flux/user/UserQuery';
 import SignUpLayout from './SignUpLayout';
-import config from 'app/config/config';
+import config from '../../config/config';
 const { localStorage } = window;
 
 type State = {

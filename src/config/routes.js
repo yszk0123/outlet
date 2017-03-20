@@ -1,7 +1,7 @@
 // @flow
-import App from 'app/components/app/App';
-import Bookmarks from 'app/components/bookmarks/Bookmarks';
-import SignUp from 'app/components/signUp/SignUp';
+import App from '../components/app/App';
+import Bookmarks from '../components/bookmarks/Bookmarks';
+import SignUp from '../components/signUp/SignUp';
 
 export default [
   {

@@ -1,5 +1,5 @@
 // @flow
-import type { RouteProps } from 'app/config/RouteProps';
+import type { RouteProps } from '../../config/RouteProps';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
