@@ -19,8 +19,10 @@
     "tachyons": "^4.6.2"
   },
   "devDependencies": {
+    "enzyme": "^2.7.1",
     "flow-bin": "^0.42.0",
     "prettier": "^0.22.0",
+    "react-addons-test-utils": "^15.4.2",
     "react-scripts": "0.9.5"
   },
   "scripts": {
