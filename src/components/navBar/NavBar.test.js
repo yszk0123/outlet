@@ -15,5 +15,8 @@ const routes = [
 
 it('renders without crashing', () => {
   const wrapper = shallow(<NavBar routes={routes} />);
-  expect(wrapper.contains(<i />)).toEqual(true);
+  const route = routes[0];
+  expect(wrapper.contains(<Link to={route.path}>{route.title}</Link>)).toEqual(
+    true
+  );
 });
