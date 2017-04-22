@@ -29,9 +29,7 @@ const LoggedOut = () => (
 );
 
 class App extends React.Component {
-  static propTypes = {
-    data: React.PropTypes.object.isRequired
-  };
+  props: Object;
 
   _logout = () => {
     localStorage.removeItem('auth0IdToken');

@@ -1,5 +1,5 @@
 // @flow
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import Auth0Lock from 'auth0-lock';
 import { withRouter } from 'react-router-dom';
 const { localStorage } = window;
@@ -11,10 +11,10 @@ const LoginButton = (props: { onClick: EventHandler }) => (
 );
 
 class LoginWithAuth0 extends Component {
-  static propTypes = {
-    clientId: PropTypes.string.isRequired,
-    domain: PropTypes.string.isRequired,
-    history: PropTypes.object.isRequired
+  props: {
+    clientId: string,
+    domain: string,
+    history: Object,
   };
 
   _lock: Auth0Lock;
